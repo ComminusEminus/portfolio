@@ -1,0 +1,11 @@
+
+
+.headlineBackgroundImage{
+  background-image: image-set(
+    url('../images/headlineBackground/headlineBackgroundXSmall.png') 1x,
+    url('../images/headlineBackground/headlineBackgroundSmall.png') 2x,
+    url('../images/headlineBackground/headlineBackgroundMedium.png') 3x,
+    url('../images/headlineBackground/headlineBackgroundLarge.png') 4x,
+    url('../images/headlineBackground/headlineBackgroundXLarge.png') 5x);
+  background-size: 'cover';
+}
