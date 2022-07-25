@@ -1,5 +1,4 @@
 import GlobalContext from '../../Provider/GlobalContext'
-import ContentSection from '../common/ComponentsNew/ContentSection'
 import contactFormAtters from './Atters/contactFormAtters'
 import ContactForm from './ContactForm'
 

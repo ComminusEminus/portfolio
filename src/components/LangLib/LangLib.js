@@ -1,5 +1,5 @@
 import GlobalContext from '../../Provider/GlobalContext'
-import ContentSection from '../common/ComponentsNew/ContentSection'
+
 import langLibAtters from './Atters/langLibAtters'
 import MapLang from './MapLang'
 import Grid from '@mui/material/Grid'

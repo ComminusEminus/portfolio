@@ -1,5 +1,4 @@
 import GlobalContext from '../../Provider/GlobalContext'
-import ContentSection from '../common/ComponentsNew/ContentSection'
 
 import aboutAtters from './Atters/aboutAtters'
 

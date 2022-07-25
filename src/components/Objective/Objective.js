@@ -1,5 +1,5 @@
 import GlobalContext from '../../Provider/GlobalContext'
-import ContentSection from '../common/ComponentsNew/ContentSection'
+
 import objectiveAtters from './Atters/objectiveAtters'
 
 import {useContext} from 'react'
