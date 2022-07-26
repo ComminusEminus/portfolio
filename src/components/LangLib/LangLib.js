@@ -12,12 +12,10 @@ const LangLib =()=> {
   const {state:{content:{langLib}}} = useContext(GlobalContext)
 
   return(
-    <Box {...langLibAtters.containerBox}>
-      <Box {...langLibAtters.titleBox}>
-        <Typography {...langLibAtters.titleText}>
-          {langLib.title}
-        </Typography>
-      </Box>
+    <Box {...langLibAtters.container}>
+      <Typography {...langLibAtters.titleText}>
+        {langLib.title}
+      </Typography>
       <Grid container sx = {{height:'100%',alignContent:'stretch',flexGrow:1}} >
         <MapLang content = {langLib.content} />
       </Grid>

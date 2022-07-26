@@ -1,22 +1,40 @@
 const skillsAtters = {
+  container:{
+    width:'100%',
+    display:'flex',
+    flexDirection:{xs: 'column', lg:'column'},
+    justifyContent:{xs: 'center', lg:'center'},
+    alignItems: {xs: 'flex-start', lg:'center'},
+    px:{xs:10, lg:15},
+    py:15,
+    pt:{md:2},
+    pb:{md:20},
+
+  },
+  mapContainer:{
+    width:{xs: '100%',lg:'100%'},
+    display:'flex',
+    flexDirection:{xs: 'column',md:"column", lg:'row'},
+    justifyContent:{xs: 'space-between',md:'flex-start',lg:'space-between'},
+    alignItems: {xs: 'center',lg:'center'},
+    px:{xs: 1,lg:0},
+  },
   titleText:{
     variant: "headerFont",
     sx:{
-      mb:4,
-      fontWeight: 500,
-      fontSize: {xs:60, lg:50},
+      fontWeight: 800,
+      fontSize: {xs:50, lg:35},
       color: 'custom.darkgrey',
-      order:{xs:0, lg:1},
-      mb:{xs: 10,lg:0},
+      mb:{xs:10,md:10,lg:4}
     }
   },
   cardtitle:{
     variant: 'bodyFont',
     sx:{
       texAlign:{xs:'center', lg:'start'},
-      mb:2,
-      fontWeight: 600,
-      fontSize: {xs: 32, md:25,lg:18},
+      mb:0,
+      fontWeight: 700,
+      fontSize: {xs: 35, md:35,lg:18},
       color: 'custom.darkgrey'
     }
   },
@@ -25,24 +43,21 @@ const skillsAtters = {
     sx:{
       textAlign:'start',
       fontWeight: 400,
-      fontSize: {xs: 30 ,md:20, lg:12},
+      fontSize: {xs: 35 ,md:35, lg:15},
       color: 'custom.darkgrey'
     }
   },
   paperCard:{
     elevation: 5,
     sx:{
-
-      m:2,
-      borderRadius: 5,
+      borderRadius: 2,
       display:'flex',
       flexDirection:'column',
-      justifyContent:{xs:'space-around', md:'flex-start',lg:'center'},
+      justifyContent:{xs:'space-around', md:'flex-start',lg:'space-between'},
       alignItems: 'center',
-      width:{xs: '90%',md:"45%",lg:'40%'},
-      height:{xs:'auto',md:'50vw',lg:'25vh'},
-      px:{xs:5, lg:2},
-      pt:{xs:5, lg:2},
+      width:{xs: '90%',md:"100%",lg:'22%'},
+      height:{xs:'auto',md:'auto',lg:'30vh'},
+      mb:{md:5,lg:0},
       pb:{xs:5, lg:4},
     }
   },
@@ -50,45 +65,24 @@ const skillsAtters = {
     sx:{
       width:'100%',
       display:'flex',
-      flexDirection:'column',
-      justifyContent:'flex-start',
+      flexDirection:'row',
+      justifyContent:'center',
       alignItems: 'center',
-      flexgrow:0
+      borderTopRightRadius: 5,
+      borderTopLeftRadius: 5,
+      bgcolor:'custom.blue'
     }
   },
   skillContentBox:{
+
     width:'100%',
-    height:'100%',
+    height:'50%',
     display:'flex',
+    px:5,
     flexDirection:'column',
     justifyContent:'flex-start',
     alignItems: 'flex-start',
-    flexgrow:2
   },
-  contentBox:{
-    width:'100%',
-    display:'flex',
-    flexDirection:{xs: 'column', lg:'row'},
-    justifyContent:{xs: 'center', lg:'flex-start'},
-    alignItems: {xs: 'flex-start', lg:'center'},
-    px:{xs:10, lg:15},
-    py:15,
-    pt:{md:2},
-    pb:{md:20},
-
-  },
-  mapSkillsBox:{
-    order:{xs:1, lg:0},
-    width:{xs: '100%',lg:'60%'},
-    display:'flex',
-    flexDirection:{xs: 'column',md:"row", lg:'row'},
-    justifyContent:{xs: 'space-between',md:'flex-start',lg:'flex-start'},
-    alignItems: {xs: 'center',lg:'center'},
-    px:{xs: 1,lg:10},
-    flexWrap: 'wrap',
-
-
-  }
 }
 
 export default skillsAtters

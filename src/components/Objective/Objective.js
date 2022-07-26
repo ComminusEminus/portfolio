@@ -11,8 +11,8 @@ const Objective = (props) => {
   const {state:{content:{objective}}} = useContext(GlobalContext)
 
   return(
-    <Box {...objectiveAtters.boxProps}>
-      <Box {...objectiveAtters.contentBox}>
+    <Box {...objectiveAtters.container}>
+      <Box {...objectiveAtters.textContainer}>
         <Typography {...objectiveAtters.titleText}>
           {objective.title}
         </Typography>

@@ -13,9 +13,9 @@ const HomePage = () => {
       <Hero />
       <Objective />
       <Skills />
-      <About />
       <LangLib />
       <ProjectPreview />
+      <About />
       <ContactFormContainer />
     </>
   )

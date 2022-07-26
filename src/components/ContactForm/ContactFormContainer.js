@@ -18,9 +18,6 @@ const ContactFormContainer = () => {
         <Typography {...contactFormAtters.titleText}>
           {contactForm.title}
         </Typography>
-        <Typography {...contactFormAtters.subTitle}>
-          {contactForm.subtitle}
-        </Typography>
       </Box>
       <ContactForm />
     </Box>

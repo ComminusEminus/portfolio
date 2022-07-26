@@ -14,15 +14,12 @@ const Hero = () => {
   return(
     <>
       {
-        hero && <Box  {...heroAtters.contentSection}>
-          <Box {...heroAtters.innerBox}>
+        hero && <Box  {...heroAtters.container}>
+          <Box {...heroAtters.textContainer}>
             <Typography {...heroAtters.titleText}>
-              {hero.title.firstName}{<SkullCrossbonesLogo {...heroAtters.heroLogoAtters} />}{hero.title.lastName}
+              {hero.subTitle}
             </Typography>
           </Box>
-          <Typography {...heroAtters.subtitleText}>
-            {hero.subTitle}
-          </Typography>
         </Box>
       }
       {
@@ -35,3 +32,12 @@ const Hero = () => {
 }
 
 export default Hero
+/*
+          <Typography {...heroAtters.titleText}>
+            {hero.title.firstName}{<SkullCrossbonesLogo {...heroAtters.heroLogoAtters} />}{hero.title.lastName}
+          </Typography>
+          <Typography {...heroAtters.subtitleText}>
+            {hero.subTitle}
+          </Typography>
+
+*/

@@ -12,13 +12,13 @@ const Skills = () => {
   const {state:{content:{skills}}} = useContext(GlobalContext)
 
   return(
-    <Box {...skillsAtters.contentBox}>
-      <Box {...skillsAtters.mapSkillsBox}>
-        <MapSkills content = {skills.content} />
-      </Box>
+    <Box {...skillsAtters.container}>
       <Typography {...skillsAtters.titleText}>
         {skills.title}
       </Typography>
+      <Box {...skillsAtters.mapContainer}>
+        <MapSkills content = {skills.content} />
+      </Box>
     </Box >
   )
 

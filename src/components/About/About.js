@@ -10,8 +10,8 @@ import Box from '@mui/material/Box'
 const About = () => {
   const {state:{content:{about}}} = useContext(GlobalContext)
   return(
-    <Box {...aboutAtters.boxProps}>
-      <Box {...aboutAtters.contentBox}>
+    <Box {...aboutAtters.container}>
+      <Box {...aboutAtters.textContainer}>
         <Typography {...aboutAtters.titleText}>
           {about.title}
         </Typography>

@@ -3,7 +3,7 @@ const hero = {
     firstName: "Mikael",
     lastName: "Mirza"
   },
-  subTitle: "Full Stack Software Development for the Web",
+  subTitle: "I am Mikael Mirza a full stack web developer.",
 }
 
 export default hero

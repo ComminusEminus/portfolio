@@ -1,14 +1,12 @@
 const langLibAtters = {
   //{xs:'',lg:''}
-  containerBox:{
+  container:{
       sx:{
-        display:'flex',
-        flexDirection:{xs:'column',lg:'row'},
-        justifyContent:{xs:'flex-start',lg:'center'},
-        alignItems: 'center',
-
-        minHeight:'80vh',
         width:'100%',
+        display:'flex',
+        flexDirection:{xs: 'column', lg:'column'},
+        justifyContent:{xs: 'center', lg:'center'},
+        alignItems: {xs: 'flex-start', lg:'center'},
         px:{xs:10, lg:15},
         py:15,
         pt:{md:2},
@@ -19,8 +17,8 @@ const langLibAtters = {
     variant: "headerFont",
     sx:{
       mb:4,
-      fontWeight: 500,
-      fontSize: {xs:60, lg:50},
+      fontWeight: 800,
+      fontSize: {xs:50, lg:35},
       color: 'custom.darkgrey'
     }
   },
@@ -29,15 +27,15 @@ const langLibAtters = {
     sx:{
       textAlign:'start',
       fontWeight: 400,
-      fontSize: {xs: 30 ,md: 25, lg:15},
+      fontSize: {xs: 30 ,md: 45, lg:15},
       color: 'custom.darkgrey'
     }
   },
   imgTitleText:{
     variant: "bodyFont",
     sx:{
-      fontWeight: 700,
-      fontSize: {xs:25,md:20,lg:12},
+      fontWeight: 900,
+      fontSize: {xs:25,md:25,lg:15},
       color: 'custom.grey'
     }
   },

@@ -1,21 +1,34 @@
 const heroAtters = {
-  contentSection: {
+  container: {
     sx : {
       display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'flex-start',
+      alignItems: 'stretch ',
       width:'100%',
-      minHeight: '50vh',
-      bgcolor: 'custom.pink25'
+      height: '50vh',
+      bgcolor: 'custom.pink25',
+      px:{xs:2,md:10,lg:15},
+      mt:{xs:5,md:5,lg:8},
+    }
+  },
+  textContainer:{
+    sx : {
+      display: 'flex',
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+      width: {xs:'100%',lg:'50%'},
+      height:'100%',
+
+
     }
   },
   titleText:{
     variant: 'headerFont',
     sx:{
       mb:1,
-      fontWeight: 900,
-      fontSize:{xs:110,lg:80},
+      fontWeight: 400,
+      fontSize:{xs:60,lg:30},
       color: 'custom.darkgrey'
     }
   },
@@ -34,15 +47,6 @@ const heroAtters = {
       fontSize: {xs:150,lg:120},
     }
   },
-  innerBox:{
-    sx : {
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      width: 'auto',
-      height:'auto'
-    }
-  }
 }
 
 export default heroAtters;

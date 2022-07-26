@@ -6,8 +6,9 @@ const contactFormAtters ={
       justifyContent: {xs:'center', lg:'center'},
       alignItems: {xs:'center', lg:'center'},
       width: '100%',
-      height: '70vh',
+      height: {xs:'auto',md:'auto',lg:'70vh'},
       pb:{xs:5, md:5, lg:0},
+      py:{md:10,lg:0}
 
 
     }
@@ -44,8 +45,8 @@ const contactFormAtters ={
       display: 'inline-flex',
       flexDirection: 'column',
       justifyContent: 'center',
-      alignItems: {xs: 'flex-start', lg:'flex-start'},
-      width: {xs:'100$', md:'100$', lg:'50%'},
+      alignItems: {xs: 'flex-start', lg:'flex-end'},
+      width: {xs:'100%', md:'100%', lg:'50%'},
       height:'100%',
 
       px:{xs:10,md:10,lg:15},
@@ -57,11 +58,11 @@ const contactFormAtters ={
     sx: {
 
       height:{
-        xs:'4vh',
+        xs:'auto',
         lg:'auto'
       },
       fontSize:{
-        xs:30,
+        xs:40,
         lg:15
       },
       display:'flex',
@@ -73,8 +74,8 @@ const contactFormAtters ={
 
       fontSize:{
         xs:30,
+        md:30,
         lg:15,
-        md:20
       },
       fontWeight:{
         xs:500,
@@ -91,11 +92,11 @@ const contactFormAtters ={
   messageInputProps:{
     sx: {
       height:{
-        xs:'10vh',
+        xs:'20vh',
         lg:'10vh'
       },
       fontSize:{
-        xs:30,
+        xs:50,
         lg:15
       },
       display:'flex',
@@ -107,16 +108,16 @@ const contactFormAtters ={
     variant: 'contained',
     sx: {
       alignSelf:'flex-end',
-      fontSize:{xs:30,md:20, lg:15},
+      fontSize:{xs:40,md:40, lg:15},
       my:3
     }
   },
   titleText:{
     variant: 'headerFont',
     sx:{
-      mb:1,
-      fontWeight: 900,
-      fontSize:{xs:85,lg:60},
+      mb:4,
+      fontWeight: 800,
+      fontSize: {xs:60, lg:45},
       color: 'custom.darkgrey'
     }
   },

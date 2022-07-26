@@ -79,4 +79,3 @@ const theme = createTheme({
 });
 
 export default theme;
-/*<Button type = 'submit' variant = 'contained' sx = {{typography:'headerFont', bgcolor: 'custom.red', color:'custom.offWhite', fontWeight:700, fontSize: 20}}>Submit</Button>*/

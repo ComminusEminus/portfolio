@@ -11,12 +11,10 @@ const ProjectPreview =()=> {
   const {state:{content:{projectPreview}}} = useContext(GlobalContext)
 
   return(
-    <Box {...projectPreviewAtters.containerBox}>
-      <Box {...projectPreviewAtters.titleBox}>
-        <Typography {...projectPreviewAtters.titleText}>
-          {projectPreview.title}
-        </Typography>
-      </Box>
+    <Box {...projectPreviewAtters.container}>
+      <Typography {...projectPreviewAtters.titleText}>
+        {projectPreview.title}
+      </Typography>
       <Box {...projectPreviewAtters.mapProjectBox}>
         <MapProjects content = {projectPreview.content} />
       </Box>
