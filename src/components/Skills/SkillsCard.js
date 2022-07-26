@@ -33,12 +33,12 @@ export default SkillsCard
 const imageSwitch = (title) => {
   switch (title){
     case 'Database':
-      return <DatabaseIcon sx = {{fontSize: {xs:200,md:180,lg:120}}} />
+      return <DatabaseIcon sx = {{fontSize: {xs:200,md:180,lg:110}}} />
     case 'Authentication':
-      return <AuthenticationIcon sx = {{fontSize: {xs:200,md:180,lg:120}}}/>
+      return <AuthenticationIcon sx = {{fontSize: {xs:200,md:180,lg:110}}}/>
     case 'TDD':
-      return <TddIcon sx = {{fontSize: {xs:200,md:180,lg:120}}} />
+      return <TddIcon sx = {{fontSize: {xs:200,md:180,lg:110}}} />
     case 'Design':
-      return <LayoutIcon sx = {{fontSize: {xs:200,md:180,lg:120}}} />
+      return <LayoutIcon sx = {{fontSize: {xs:200,md:180,lg:110}}} />
   }
 }

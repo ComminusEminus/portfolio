@@ -17,9 +17,6 @@ const LangLib =()=> {
         <Typography {...langLibAtters.titleText}>
           {langLib.title}
         </Typography>
-        <Typography {...langLibAtters.subTitleText}>
-          {langLib.subTitle}
-        </Typography>
       </Box>
       <Grid container sx = {{height:'100%',alignContent:'stretch',flexGrow:1}} >
         <MapLang content = {langLib.content} />

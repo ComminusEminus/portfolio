@@ -4,9 +4,11 @@ const contactFormAtters ={
       display: 'flex',
       flexDirection:{xs:'column', lg:'row'},
       justifyContent: {xs:'center', lg:'center'},
-      alignItems: {xs:'center', lg:'stretch'},
+      alignItems: {xs:'center', lg:'center'},
       width: '100%',
-      minHeight: '60vh',
+      height: '70vh',
+      pb:{xs:5, md:5, lg:0},
+
 
     }
   },
@@ -28,7 +30,7 @@ const contactFormAtters ={
       justifyContent: 'baseline',
       alignItems: 'center',
       width: '100%',
-
+      border:1,
       p:{xs: 10, lg:30},
       px:{md:10},
       py:{md:2},
@@ -43,15 +45,17 @@ const contactFormAtters ={
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: {xs: 'flex-start', lg:'flex-start'},
-      width: '100%',
+      width: {xs:'100$', md:'100$', lg:'50%'},
+      height:'100%',
 
-      p:10,
+      px:{xs:10,md:10,lg:15},
 
       boxSizing:'border-box'
     }
   },
   inputProps:{
     sx: {
+
       height:{
         xs:'4vh',
         lg:'auto'
@@ -66,6 +70,7 @@ const contactFormAtters ={
   },
   inputLabelProps:{
     sx: {
+
       fontSize:{
         xs:30,
         lg:15,
@@ -79,9 +84,9 @@ const contactFormAtters ={
   },
   inputTextFieldProps:{
     width: '100%',
-    bgcolor: 'white',
-    borderRadius: 2,
-    my:1
+
+    my:1,
+
   },
   messageInputProps:{
     sx: {
@@ -94,12 +99,14 @@ const contactFormAtters ={
         lg:15
       },
       display:'flex',
-      alignItems:'flex-start'
+      alignItems:'flex-start',
+
     }
   },
   submitFormButton:{
     variant: 'contained',
     sx: {
+      alignSelf:'flex-end',
       fontSize:{xs:30,md:20, lg:15},
       my:3
     }
@@ -109,7 +116,7 @@ const contactFormAtters ={
     sx:{
       mb:1,
       fontWeight: 900,
-      fontSize:{xs:85,lg:80},
+      fontSize:{xs:85,lg:60},
       color: 'custom.darkgrey'
     }
   },
@@ -117,7 +124,7 @@ const contactFormAtters ={
     variant: 'bodyFont',
      sx:{
        fontWeight: 500,
-       fontSize: {xs: 30 ,md:25, lg:18},
+       fontSize: {xs: 30 ,md:25, lg:15},
        color: 'custom.darkgrey'
      }
   },

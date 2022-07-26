@@ -3,7 +3,7 @@ const skillsAtters = {
     variant: "headerFont",
     sx:{
       mb:4,
-      fontWeight: 300,
+      fontWeight: 500,
       fontSize: {xs:60, lg:50},
       color: 'custom.darkgrey',
       order:{xs:0, lg:1},
@@ -16,7 +16,7 @@ const skillsAtters = {
       texAlign:{xs:'center', lg:'start'},
       mb:2,
       fontWeight: 600,
-      fontSize: {xs: 32, md:25,lg:20},
+      fontSize: {xs: 32, md:25,lg:18},
       color: 'custom.darkgrey'
     }
   },
@@ -25,7 +25,7 @@ const skillsAtters = {
     sx:{
       textAlign:'start',
       fontWeight: 400,
-      fontSize: {xs: 30 ,md:20, lg:15},
+      fontSize: {xs: 30 ,md:20, lg:12},
       color: 'custom.darkgrey'
     }
   },
@@ -37,40 +37,42 @@ const skillsAtters = {
       borderRadius: 5,
       display:'flex',
       flexDirection:'column',
-      justifyContent:{xs:'space-around', md:'flex-start',lg:'space-around'},
+      justifyContent:{xs:'space-around', md:'flex-start',lg:'center'},
       alignItems: 'center',
       width:{xs: '90%',md:"45%",lg:'40%'},
       height:{xs:'auto',md:'50vw',lg:'25vh'},
-      px:{xs:5, lg:3},
-      py:3
+      px:{xs:5, lg:2},
+      pt:{xs:5, lg:2},
+      pb:{xs:5, lg:4},
     }
   },
   imgBox:{
     sx:{
       width:'100%',
-      height:'50%',
       display:'flex',
       flexDirection:'column',
       justifyContent:'flex-start',
-      alignItems: 'center'
+      alignItems: 'center',
+      flexgrow:0
     }
   },
   skillContentBox:{
     width:'100%',
+    height:'100%',
     display:'flex',
     flexDirection:'column',
     justifyContent:'flex-start',
-    alignItems: 'center'
+    alignItems: 'flex-start',
+    flexgrow:2
   },
   contentBox:{
     width:'100%',
     display:'flex',
-
     flexDirection:{xs: 'column', lg:'row'},
     justifyContent:{xs: 'center', lg:'flex-start'},
     alignItems: {xs: 'flex-start', lg:'center'},
-    px:10,
-    py:20,
+    px:{xs:10, lg:15},
+    py:15,
     pt:{md:2},
     pb:{md:20},
 

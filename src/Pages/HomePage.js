@@ -12,8 +12,8 @@ const HomePage = () => {
     <>
       <Hero />
       <Objective />
-      <About />
       <Skills />
+      <About />
       <LangLib />
       <ProjectPreview />
       <ContactFormContainer />

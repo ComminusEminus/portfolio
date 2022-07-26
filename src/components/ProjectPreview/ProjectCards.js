@@ -14,21 +14,11 @@ const ProjectCards = ({cardData}) => {
       <Typography {...projectPreviewAtters.projectCardDescriptionText} >
         {cardData.description}
       </Typography>
-      <Divider />
-      <Box {...projectPreviewAtters.projectButtonsBox}>
-        <Button {...projectPreviewAtters.projectGitHubButton}>
-          GitHub
-        </Button>
-        <Button  {...projectPreviewAtters.projectDetailsButton}>
-          View Details
-        </Button>
-      </Box>
+      <Button href = {cardData.gitHubUrl}  {...projectPreviewAtters.projectDetailsButton}>
+        View Github
+      </Button>
     </Paper>
   )
 }
 
 export default ProjectCards
-/*
-!!!!!!!!!!!!!!!!!Add router Link
-
-*/

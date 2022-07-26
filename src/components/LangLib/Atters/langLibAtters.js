@@ -9,14 +9,17 @@ const langLibAtters = {
 
         minHeight:'80vh',
         width:'100%',
-        p:{xs:10, lg:10}
+        px:{xs:10, lg:15},
+        py:15,
+        pt:{md:2},
+        pb:{md:20},
       }
   },
   titleText:{
     variant: "headerFont",
     sx:{
       mb:4,
-      fontWeight: 300,
+      fontWeight: 500,
       fontSize: {xs:60, lg:50},
       color: 'custom.darkgrey'
     }
@@ -26,7 +29,7 @@ const langLibAtters = {
     sx:{
       textAlign:'start',
       fontWeight: 400,
-      fontSize: {xs: 30 ,md: 25, lg:18},
+      fontSize: {xs: 30 ,md: 25, lg:15},
       color: 'custom.darkgrey'
     }
   },

@@ -3,22 +3,12 @@ const projectPreviewAtters = {
     sx : {
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: {xs: 'space-around',lg:'space-between'},
+      justifyContent: {xs: 'center',md:'center',lg:'space-between'},
       alignItems: 'center',
       width: '100%',
-      minHeight: {xs:'50vh',lg:'60vh'},
+      minHeight: {xs:'80vh',md:'80vh',lg:'60vh'},
       p:10,
 
-    }
-  },
-  titleBox:{
-    sx:{
-      width:'100%',
-      height:'100%',
-      display:'flex',
-      flexDirection:'column',
-      justifyContent:'center',
-      alignItems: 'center'
     }
   },
   mapProjectBox:{
@@ -31,17 +21,14 @@ const projectPreviewAtters = {
       alignItems: 'center'
     }
   },
-  projectButtonsBox:{
+  titleBox:{
     sx:{
       width:'100%',
-      height:'50%',
+      height:'auto',
       display:'flex',
       flexDirection:'row',
-      justifyContent:'space-around',
-      alignItems: 'center',
-      mt:3,
-      mb:1,
-
+      justifyContent:'center',
+      alignItems: 'baseline',
     }
   },
   paperCard:{
@@ -62,7 +49,7 @@ const projectPreviewAtters = {
     variant: "headerFont",
     sx:{
       mb:4,
-      fontWeight: 300,
+      fontWeight: 500,
       fontSize: {xs:60, lg:50},
       color: 'custom.darkgrey'
     }
@@ -80,7 +67,7 @@ const projectPreviewAtters = {
     variant: "bodyFont",
     sx:{
       fontWeight: 500,
-      fontSize: {xs: 30,md:20, lg:15},
+      fontSize: {xs: 30,md:20, lg:14},
       color: 'custom.darkgrey'
     }
   },
@@ -91,13 +78,15 @@ const projectPreviewAtters = {
       fontWeight:800,
       fontFamily: 'bodyFont',
       fontSize:{xs:30,md:25, lg:15},
+
     }
   },
   projectDetailsButton:{
     variant: "contained",
     sx:{
-      fontSize:{xs:30,md:20, lg:15}
-    }
+      fontSize:{xs:30,md:20, lg:15},
+      mt:2
+    },
   },
 }
 

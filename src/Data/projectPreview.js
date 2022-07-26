@@ -4,8 +4,8 @@ const projectPreview = {
     {
       title:"ECommerceDemo",
       description:"An E-Commerce Project demonstrating Multi 3rd Party API Integration and Client Side CRUD Operations",
-      pageUrl:"/ecommerceProject",
-      gitHubUrl:null,
+      pageUrl:"N/A",
+      gitHubUrl:"https://github.com/ComminusEminus/eCommerce",
     },
   ]
 }

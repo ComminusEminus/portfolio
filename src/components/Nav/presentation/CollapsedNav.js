@@ -26,7 +26,7 @@ const CollapsedNav = () => {
   };
   return(
     <Box sx={{display: { xs: 'flex', lg: 'none' }, justifyContent:'center', alignItems:'center' }}>
-      <Box  sx={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
+      <Box  sx={{ display:'flex', justifyContent:'center', alignItems:'center', border:1}}>
         <Link
           variant = 'headerFont'
           component = {LinkBehavior}

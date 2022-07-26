@@ -20,8 +20,8 @@ const NavContainer = () => {
   return(
     <>
       <AppBar style = {styles.navContainer}>
-        <Box >
-          <Toolbar disableGutters>
+        <Box sx={{px:{xs:0,md:0,lg:10}}}>
+          <Toolbar >
             <CollapsedNav />
             <ExpandedNav  />
           </Toolbar>

@@ -9,12 +9,14 @@ const ContactForm = () => {
   const {formik} = useContactFormHook()
   return(
     <>
-      <Box {...contactFormAtters.formBox}>
+      <Box sx={{width:{xs:"80%",md:'80%',lg:'50%'}}}>
         <form onSubmit = {formik.handleSubmit}>
-          <ContactFields formik = {formik} />
-          <Button {...contactFormAtters.submitFormButton}>
-            Submit
-          </Button>
+          <Box sx={{width:{xs:'100%', md:'100%', lg:'80%'},display:'flex',flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+            <ContactFields formik = {formik} />
+            <Button {...contactFormAtters.submitFormButton}>
+              Submit
+            </Button>
+          </Box>
         </form >
       </Box>
     </>
