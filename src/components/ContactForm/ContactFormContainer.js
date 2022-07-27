@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography'
 
 const ContactFormContainer = () => {
   const {state:{content:{contactForm}}} = useContext(GlobalContext)
-  console.log(contactForm.title)
+
   return(
     <Box {...contactFormAtters.contentBox}>
       <Box {...contactFormAtters.titleBox}>

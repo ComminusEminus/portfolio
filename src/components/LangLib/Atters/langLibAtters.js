@@ -1,5 +1,4 @@
 const langLibAtters = {
-  //{xs:'',lg:''}
   container:{
       sx:{
         width:'100%',

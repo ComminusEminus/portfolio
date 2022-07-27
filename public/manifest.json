@@ -1,14 +1,15 @@
 {
-  "short_name": "Mikael Mirza",
+  "short_name": "MM Portfolio",
   "name": "Mikael Mirza Portfolio",
   "icons": [
     {
-      "src": "SkullCrossLogo.svg",
+      "src": "./SkullCrossLogo.svg",
+      "sizes": "any",
       "type": "image/svg"
-    },
+    }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
+  "start_url": "https://www.mikaelmirza.com",
+  "display": "fullscreen",
+  "theme_color": "#211E1F",
   "background_color": "#ffffff"
 }

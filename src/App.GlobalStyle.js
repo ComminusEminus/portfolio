@@ -4,14 +4,14 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     custom:{
-      pink:'#F4B3CF', //rgba(244, 179, 207)
+      pink:'#F4B3CF',
       pink25: 'rgba(244, 179, 207, .25)',
       red:'#D65375',
       yellow:'#F0E930',
-      blue:'#A6DFF4',//rgba(166,223,244, 1)
+      blue:'#A6DFF4',
       grey: '#CED2DD',
       darkgrey: '#211E1F',
-      darkblue: '#4BBFE9' //rgba(75, 191, 233, 1)
+      darkblue: '#4BBFE9'
     }
   },
   typography:{
@@ -60,11 +60,8 @@ const theme = createTheme({
     MuiMenu: {
       styleOverrides: {
         root:{
-
-
         },
         paper:{
-
           backgroundColor: 'white',
         },
         list:{

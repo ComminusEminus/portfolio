@@ -1,5 +1,5 @@
 import * as yup from 'yup';
-//add more to form later just use below until logic is set up
+
 const contactFormSchema = yup.object({
   name: yup
     .string()
