@@ -27,11 +27,11 @@ const ExpandedNav = () => {
         component = {LinkBehavior}
         underline="none"
         to = {`/`}
-        sx = {{ mx:3, color:'custom.darkgrey',fontSize: 40, fontWeight:800}}
+        sx = {{ mx:3, color:'custom.darkgrey',fontSize: 40, fontWeight:300}}
       >
         Mikael
         {
-          <SkullCrossbonesLogo sx = {{mx:2,color: 'custom.red',fontSize: {xs:150, lg:60} }} />
+          <SkullCrossbonesLogo sx = {{mx:2,color: 'custom.darkgrey25',fontSize: {xs:70, lg:50} }} />
         }
         Mirza
       </Link>

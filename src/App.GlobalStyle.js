@@ -11,6 +11,7 @@ const theme = createTheme({
       blue:'#A6DFF4',
       grey: '#CED2DD',
       darkgrey: '#211E1F',
+      darkgrey25:'rgba(33,30,31, .25)',
       darkblue: '#4BBFE9'
     }
   },
@@ -29,7 +30,7 @@ const theme = createTheme({
     },
     logoFont:{
       fontFamily:[
-        'Lobster', 'cursive'
+        'Erica One', 'cursive'
       ].join(",")
     },
     largeTitle:{

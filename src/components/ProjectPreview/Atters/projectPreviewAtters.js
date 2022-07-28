@@ -17,7 +17,7 @@ const projectPreviewAtters = {
       width:'100%',
       height:'100%',
       display:'flex',
-      flexDirection:'row',
+      flexDirection:{xs:'column', md:'column',lg:'row'},
       justifyContent:'center',
       alignItems: 'center'
     }
@@ -35,14 +35,15 @@ const projectPreviewAtters = {
     elevation: 5,
     sx:{
       p:{xs:2,md:4,lg:3},
-      m:2,
+      mx: {xs:0,md:0,lg:2},
+      my: {xs:2,md:2,lg:0},
       borderRadius: 5,
       display:'flex',
       flexDirection:'column',
-      justifyContent:'center',
+      justifyContent:'space-between',
       alignItems: 'flex-start',
-      width:{xs: '90%',lg:'25%'},
-      height:'auto',
+      width:{xs: '100%',lg:'25%'},
+      minHeight:'20vh',
     }
   },
   projectCardTitleText:{

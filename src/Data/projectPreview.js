@@ -7,6 +7,12 @@ const projectPreview = {
       pageUrl:"N/A",
       gitHubUrl:"https://github.com/ComminusEminus/eCommerce",
     },
+    {
+      title:"Portfolio Page",
+      description:"My portfolio page.",
+      pageUrl:"N/A",
+      gitHubUrl:"https://github.com/ComminusEminus/portfolio",
+    },
   ]
 }
 export default projectPreview

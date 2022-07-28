@@ -3,33 +3,35 @@ const heroAtters = {
     sx : {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'flex-start',
+      justifyContent: {xs:'flex-start',md:'flex-start',lg:'center'},
       alignItems: 'stretch ',
       width:'100%',
       height: '50vh',
-      bgcolor: 'custom.pink25',
+      bgcolor: 'white',
       px:{xs:2,md:10,lg:15},
       mt:{xs:5,md:5,lg:8},
+
     }
   },
   textContainer:{
     sx : {
       display: 'flex',
-      justifyContent: 'flex-start',
+      justifyContent: {xs:'flex-start',md:'flex-start',lg:'center'},
       alignItems: 'center',
       width: {xs:'100%',lg:'50%'},
       height:'100%',
 
 
+
     }
   },
   titleText:{
-    variant: 'headerFont',
+    variant: 'logoFont',
     sx:{
       mb:1,
-      fontWeight: 400,
-      fontSize:{xs:60,lg:30},
-      color: 'custom.darkgrey'
+      fontWeight: 300,
+      fontSize:{xs:80,lg:70},
+      color: 'custom.darkgrey',
     }
   },
   subtitleText:{

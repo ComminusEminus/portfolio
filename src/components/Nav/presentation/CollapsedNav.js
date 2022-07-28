@@ -32,11 +32,11 @@ const CollapsedNav = () => {
           component = {LinkBehavior}
           underline="none"
           to = {`/`}
-          sx = {{ my:1,mx:3, color:'custom.darkgrey',fontSize: 60, fontWeight:800}}
+          sx = {{ my:1,mx:3, color:'custom.darkgrey',fontSize: 60, fontWeight:300}}
         >
           Mikael
           {
-            <SkullCrossbonesLogo sx = {{mx:2,color: 'custom.red',fontSize: {xs:100, lg:120} }} />
+            <SkullCrossbonesLogo sx = {{mx:2,color: 'custom.darkgrey25',fontSize: {xs:70, lg:60} }} />
           }
           Mirza
         </Link>
