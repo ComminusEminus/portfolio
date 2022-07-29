@@ -1,7 +1,5 @@
 import GlobalContext from '../../Provider/GlobalContext'
-
 import heroAtters from './Atters/heroAtters'
-import SkullCrossbonesLogo from '../common/images/SvgIcons/SkullCrossbonesLogo'
 
 import {useContext} from 'react'
 
@@ -32,12 +30,3 @@ const Hero = () => {
 }
 
 export default Hero
-/*
-          <Typography {...heroAtters.titleText}>
-            {hero.title.firstName}{<SkullCrossbonesLogo {...heroAtters.heroLogoAtters} />}{hero.title.lastName}
-          </Typography>
-          <Typography {...heroAtters.subtitleText}>
-            {hero.subTitle}
-          </Typography>
-
-*/
