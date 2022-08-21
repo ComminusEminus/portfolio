@@ -14,12 +14,14 @@ const ContactFormContainer = () => {
 
   return(
     <Box {...contactFormAtters.contentBox}>
-      <Box {...contactFormAtters.titleBox}>
-        <Typography {...contactFormAtters.titleText}>
-          {contactForm.title}
-        </Typography>
+      <Box {...contactFormAtters.borderBox}>
+        <Box {...contactFormAtters.titleBox}>
+          <Typography {...contactFormAtters.titleText}>
+            {contactForm.title}
+          </Typography>
+        </Box>
+        <ContactForm />
       </Box>
-      <ContactForm />
     </Box>
   )
 }

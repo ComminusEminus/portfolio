@@ -23,11 +23,11 @@ const ExpandedNav = () => {
   return (
     <Box sx={{border:1, flexGrow: 1, display: {xs: 'none', lg: 'flex'}, justifyContent: 'flex-start', alignItems: 'baseline'}}>
       <Link
-        variant = 'headerFont'
+        variant = 'logoFont'
         component = {LinkBehavior}
         underline="none"
         to = {`/`}
-        sx = {{ mx:3, color:'custom.darkgrey',fontSize: 40, fontWeight:300}}
+        sx = {{ mx:3, color:'custom.darkgrey',fontSize: 40}}
       >
         Mikael
         {

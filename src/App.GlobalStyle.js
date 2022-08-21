@@ -18,8 +18,7 @@ const theme = createTheme({
   typography:{
     headerFont:{
       fontFamily: [
-        'Lato',
-        'sans-serif'
+        'Work Sans', 'sans-serif'
       ].join(','),
     },
     bodyFont: {
@@ -30,7 +29,7 @@ const theme = createTheme({
     },
     logoFont:{
       fontFamily:[
-        'Erica One', 'cursive'
+        'Rubik Dirt', 'cursive'
       ].join(",")
     },
     largeTitle:{

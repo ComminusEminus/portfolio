@@ -13,10 +13,12 @@ const LangLib =()=> {
 
   return(
     <Box {...langLibAtters.container}>
-      <Typography {...langLibAtters.titleText}>
-        {langLib.title}
-      </Typography>
-      <Grid container sx = {{height:'100%',alignContent:'stretch',flexGrow:1}} >
+      <Box {...langLibAtters.textContainer}>
+        <Typography {...langLibAtters.titleText}>
+          {langLib.title}
+        </Typography>
+      </Box>
+      <Grid container sx = {{height:'100%',alignContent:'stretch',flexGrow:1, width:{xs: '100%',lg:'70%'}}} >
         <MapLang content = {langLib.content} />
       </Grid>
     </Box >

@@ -5,19 +5,27 @@ const skillsAtters = {
     flexDirection:{xs: 'column', lg:'column'},
     justifyContent:{xs: 'center', lg:'center'},
     alignItems: {xs: 'flex-start', lg:'center'},
-    px:{xs:10, lg:15},
+    px:{xs:10, lg:10},
     py:15,
     pt:{md:2},
     pb:{md:20},
 
   },
   mapContainer:{
-    width:{xs: '100%',lg:'100%'},
+    width:{xs: '100%',lg:'70%'},
     display:'flex',
     flexDirection:{xs: 'column',md:"column", lg:'row'},
     justifyContent:{xs: 'space-between',md:'flex-start',lg:'space-between'},
     alignItems: {xs: 'center',lg:'center'},
     px:{xs: 1,lg:0},
+  },
+  titleBox:{
+    width: { xs: '100%', lg: '70%' },
+    display: 'flex',
+    flexDirection: { xs: 'row', md: "row", lg: 'row' },
+    justifyContent: { xs: 'flex-start', md: 'flex-start', lg: 'flex-start' },
+    alignItems: { xs: 'center', lg: 'center' },
+    px: { xs: 1, lg: 0 },
   },
   titleText:{
     variant: "headerFont",
@@ -52,33 +60,36 @@ const skillsAtters = {
     sx:{
       borderRadius: 2,
       display:'flex',
-      flexDirection:'column',
+      flexDirection:{md: 'row',lg:'column'},
       justifyContent:{xs:'space-around', md:'flex-start',lg:'space-between'},
       alignItems: 'center',
-      width:{xs: '90%',md:"100%",lg:'22%'},
+      width:{xs: '90%',md:"100%",lg:'100%'},
       height:{xs:'auto',md:'auto',lg:'30vh'},
       mb:{md:5,lg:0},
+      mx: { md: 0, lg: 2 },
       pb:{xs:5, lg:4},
     }
   },
   imgBox:{
     sx:{
-      width:'100%',
+      width: { xs: 'auto', md: 'auto', lg: '100%' }, 
+      height:{xs:'100%',md:'100%', lg:'auto'},
       display:'flex',
       flexDirection:'row',
       justifyContent:'center',
       alignItems: 'center',
       borderTopRightRadius: 5,
       borderTopLeftRadius: 5,
-      bgcolor:'custom.blue'
+      pl:{xs:2, lg:0},
+      bgcolor:{xs:'white',lg:'custom.blue'}
     }
   },
   skillContentBox:{
 
     width:'100%',
-    height:'50%',
+    height:'100%',
     display:'flex',
-    px:5,
+    p:{md: 5, lg:2},
     flexDirection:'column',
     justifyContent:'flex-start',
     alignItems: 'flex-start',

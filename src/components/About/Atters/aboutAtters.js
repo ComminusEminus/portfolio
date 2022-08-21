@@ -9,7 +9,7 @@ const aboutAtters ={
       height: {xs:'70vh',md:'auto',lg:'50vh'},
       py:{xs:15,md:15,lg:0},
       px:10,
-      bgcolor:'#262626'
+      
     }
   },
   textContainer:{
@@ -17,8 +17,8 @@ const aboutAtters ={
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
-      alignItems: {md:'flex-start',lg:'center'},
-      width: {xs:'100%', lg:'50%'},
+      alignItems: {md:'flex-start',lg:'flex-start'},
+      width: {xs:'100%', lg:'70%'},
       height:'auto',
     }
   },
@@ -28,7 +28,7 @@ const aboutAtters ={
       mb:4,
       fontWeight: 800,
       fontSize: {xs:50, lg:35},
-      color: 'white'
+      color: 'custom.darkgrey'
     }
   },
   contentText:{
@@ -37,7 +37,7 @@ const aboutAtters ={
       textAlign:'start',
       fontWeight: 600,
       fontSize: {xs: 40 ,md: 35, lg:18},
-      color: 'white'
+      color: 'custom.darkgrey'
     }
   },
 }

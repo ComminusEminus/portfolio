@@ -13,9 +13,11 @@ const Skills = () => {
 
   return(
     <Box {...skillsAtters.container}>
-      <Typography {...skillsAtters.titleText}>
-        {skills.title}
-      </Typography>
+      <Box {...skillsAtters.titleBox}>
+        <Typography {...skillsAtters.titleText}>
+          {skills.title}
+        </Typography>
+      </Box>
       <Box {...skillsAtters.mapContainer}>
         <MapSkills content = {skills.content} />
       </Box>

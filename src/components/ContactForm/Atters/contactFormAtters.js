@@ -2,15 +2,29 @@ const contactFormAtters ={
   contentBox:{
     sx : {
       display: 'flex',
-      flexDirection:{xs:'column', lg:'row'},
+      flexDirection:{xs:'row', lg:'row'},
       justifyContent: {xs:'center', lg:'center'},
       alignItems: {xs:'center', lg:'center'},
       width: '100%',
-      height: {xs:'auto',md:'auto',lg:'70vh'},
-      pb:{xs:5, md:5, lg:0},
-      py:{md:10,lg:0}
-
-
+      height: {xs:'auto',md:'auto',lg:'auto'},
+      mb:2,
+      py: { xs: 15, md: 15, lg: 0 },
+      px: 10,
+      boxSizing: 'border-box'
+    }
+  },
+  borderBox:{
+    sx: {
+      display: 'flex',
+      flexDirection: { xs: 'column', lg: 'row' },
+      justifyContent: { xs: 'center', lg: 'center' },
+      alignItems: { xs: 'center', lg: 'center' },
+      width: {xs:'100%',lg:'70%'},
+      height: { xs: 'auto', md: 'auto', lg: 'auto' },
+      py:{xs:5,lg:3},
+      border:10,
+      borderRadius: 10,
+      boxSizing:'border-box'
     }
   },
   formFieldBox:{
@@ -32,7 +46,7 @@ const contactFormAtters ={
       alignItems: 'center',
       width: '100%',
       border:1,
-      p:{xs: 10, lg:30},
+      p:{xs: 10, lg:0},
       px:{md:10},
       py:{md:2},
       boxSizing:'border-box',
@@ -45,11 +59,11 @@ const contactFormAtters ={
       display: 'inline-flex',
       flexDirection: 'column',
       justifyContent: 'center',
-      alignItems: {xs: 'flex-start', lg:'flex-end'},
-      width: {xs:'100%', md:'100%', lg:'50%'},
+      alignItems: {xs: 'flex-start', lg:'center'},
+      width: {xs:'100%', md:'100%', lg:'55%'},
       height:'100%',
-
-      px:{xs:10,md:10,lg:15},
+      
+      px:{xs:10,md:10,lg:5},
 
       boxSizing:'border-box'
     }

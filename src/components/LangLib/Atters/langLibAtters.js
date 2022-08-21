@@ -6,11 +6,23 @@ const langLibAtters = {
         flexDirection:{xs: 'column', lg:'column'},
         justifyContent:{xs: 'center', lg:'center'},
         alignItems: {xs: 'flex-start', lg:'center'},
-        px:{xs:10, lg:15},
+        px:{xs:10, lg:10},
         py:15,
         pt:{md:2},
         pb:{md:20},
+
       }
+  },
+  textContainer: {
+    sx: {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: { md: 'flex-start', lg: 'flex-start' },
+      width: { xs: '100%', lg: '70%' },
+      height: 'auto',
+
+    }
   },
   titleText:{
     variant: "headerFont",
@@ -83,6 +95,7 @@ const langLibAtters = {
     justifyContent:'center',
     alignItems: 'center',
     px:10,
+    border:1
 
 
 

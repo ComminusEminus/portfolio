@@ -28,11 +28,11 @@ const CollapsedNav = () => {
     <Box sx={{display: { xs: 'flex', lg: 'none' }, justifyContent:'center', alignItems:'center' }}>
       <Box  sx={{ display:'flex', justifyContent:'center', alignItems:'center', border:1}}>
         <Link
-          variant = 'headerFont'
+          variant = 'logoFont'
           component = {LinkBehavior}
           underline="none"
           to = {`/`}
-          sx = {{ my:1,mx:3, color:'custom.darkgrey',fontSize: 60, fontWeight:300}}
+          sx = {{ my:1,mx:3, color:'custom.darkgrey',fontSize: 60}}
         >
           Mikael
           {

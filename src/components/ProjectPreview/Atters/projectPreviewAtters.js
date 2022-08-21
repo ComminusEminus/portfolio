@@ -12,13 +12,24 @@ const projectPreviewAtters = {
       pb:{md:20},
     }
   },
+  textContainer: {
+    sx: {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: { md: 'flex-start', lg: 'flex-start' },
+      width: { xs: '100%', lg: '70%' },
+      height: 'auto',
+
+    }
+  },
   mapProjectBox:{
     sx:{
-      width:'100%',
+      width:{xs:'100%',lg:'70%'},
       height:'100%',
       display:'flex',
       flexDirection:{xs:'column', md:'column',lg:'row'},
-      justifyContent:'center',
+      justifyContent: { xs: 'center', md: 'center', lg: 'flex-start' },
       alignItems: 'center'
     }
   },
@@ -34,24 +45,54 @@ const projectPreviewAtters = {
   paperCard:{
     elevation: 5,
     sx:{
-      p:{xs:2,md:4,lg:3},
+      p:{xs:2,md:4,lg:2},
       mx: {xs:0,md:0,lg:2},
       my: {xs:2,md:2,lg:0},
       borderRadius: 5,
       display:'flex',
       flexDirection:'column',
-      justifyContent:'space-between',
+      justifyContent:'flex-start',
       alignItems: 'flex-start',
-      width:{xs: '100%',lg:'25%'},
-      minHeight:'20vh',
+      width:{xs: '100%',lg:'40%'},
+      height:'20vh',
+    }
+  },
+  cardTitleBox:{
+    sx:{
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+      width: { xs: '100%', lg: '100%' },
+      height: '100%',
+    }
+  },
+  cardDescriptionBox: {
+    sx: {
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'flex-start',
+      alignItems: 'flex-start',
+      width: { xs: '100%', lg: '100%' },
+      height: '100%',
+    }
+  },
+  cardButtonBox: {
+    sx: {
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'flex-end',
+      alignItems: 'center',
+      width: { xs: '100%', lg: '100%' },
+      height: '100%',
     }
   },
   projectCardTitleText:{
-    variant: "headerFont",
+    variant: "bodyFont",
     sx:{
       fontSize: {xs: 45, lg:30},
-      fontWeight: 900,
-      mb:2,
+      fontWeight: 400,
+      mb:1,
       color: 'custom.darkblue'
     }
   },

@@ -7,7 +7,7 @@ const skills = {
       img: "Database",
     },
     {
-      title:"Authentication Authorization",
+      title:"Security",
       content:"Capable of developing secure client side rendered applications as well as integrating 3rd party security applications",
       img: "Authentication",
     },

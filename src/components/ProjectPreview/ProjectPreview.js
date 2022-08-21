@@ -12,9 +12,11 @@ const ProjectPreview =()=> {
 
   return(
     <Box {...projectPreviewAtters.container}>
-      <Typography {...projectPreviewAtters.titleText}>
-        {projectPreview.title}
-      </Typography>
+      <Box {...projectPreviewAtters.textContainer}>
+        <Typography {...projectPreviewAtters.titleText}>
+          {projectPreview.title}
+        </Typography>
+      </Box>
       <Box {...projectPreviewAtters.mapProjectBox}>
         <MapProjects content = {projectPreview.content} />
       </Box>

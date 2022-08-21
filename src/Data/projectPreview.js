@@ -9,7 +9,7 @@ const projectPreview = {
     },
     {
       title:"Portfolio Page",
-      description:"My portfolio page.",
+      description:"Current page being viewed.",
       pageUrl:"N/A",
       gitHubUrl:"https://github.com/ComminusEminus/portfolio",
     },

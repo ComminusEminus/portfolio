@@ -8,15 +8,21 @@ import projectPreviewAtters from './Atters/projectPreviewAtters'
 const ProjectCards = ({cardData}) => {
   return(
     <Paper {...projectPreviewAtters.paperCard}>
-      <Typography {...projectPreviewAtters.projectCardTitleText} >
-        {cardData.title}
-      </Typography>
-      <Typography {...projectPreviewAtters.projectCardDescriptionText} >
-        {cardData.description}
-      </Typography>
-      <Button href = {cardData.gitHubUrl}  {...projectPreviewAtters.projectDetailsButton}>
-        View Github
-      </Button>
+      <Box {...projectPreviewAtters.cardTitleBox}>
+        <Typography {...projectPreviewAtters.projectCardTitleText} >
+          {cardData.title}
+        </Typography>
+     </Box>
+      <Box {...projectPreviewAtters.cardDescriptionBox}>
+        <Typography {...projectPreviewAtters.projectCardDescriptionText} >
+          {cardData.description}
+        </Typography>
+      </Box>
+      <Box {...projectPreviewAtters.cardButtonBox}>
+        <Button href={cardData.gitHubUrl}  {...projectPreviewAtters.projectDetailsButton}>
+          View Github
+        </Button>
+      </Box>
     </Paper>
   )
 }

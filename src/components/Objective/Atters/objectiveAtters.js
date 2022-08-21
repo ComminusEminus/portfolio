@@ -16,8 +16,8 @@ const objectiveAtters = {
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
-      alignItems: {md:'flex-start',lg:'center'},
-      width: {xs:'100%', lg:'50%'},
+      alignItems: {md:'flex-start',lg:'flex-start'},
+      width: {xs:'100%', lg:'70%'},
       height:'auto',
 
     }
@@ -26,7 +26,7 @@ const objectiveAtters = {
     variant: "headerFont",
     sx:{
       mb:4,
-      fontWeight: 800,
+      fontWeight: 900,
       fontSize: {xs:50, lg:35},
       color: 'custom.darkgrey'
     }
